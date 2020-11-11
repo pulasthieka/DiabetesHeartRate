@@ -4,7 +4,7 @@ by Pulasthi Ekanayake
 
 ## Preprocessing D1NAMO dataset
 
-1. Download the dataset from https://zenodo.org/record/1421616/files/D1NAMO.tgz
+1. Download the dataset from [https://zenodo.org/record/1421616/files/D1NAMO.tgz](https://zenodo.org/record/1421616/files/D1NAMO.tgz)
 2. Extract the dataset
 3. Loop through the dataset and find the files ending with “ECG.csv” which contain the ECG data for all subjects. Important! – Each subject has 4 separate ECG recordings. Due to the lack of data each recording was treated as a different subject.
 4. For each ECG recording extract 1 min of data starting from the 15th minute ( to allow time for stabilization). From this data, the following parameters were calculated.
